@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="script.js"></script>
+    <title>Jessica Aroztegui</title>
+  </head>
+  <body>
+    <section class="heading">
+      <div class="heading-container">
+        <header>
+          <div class="logo">
+            <p>Jessica Aroztegui</p>
+          </div>
+          <nav class="menu">
+            <a href="#kinesiology" class="menu-item">La kinésiologie</a>
+            <a href="#booking" class="menu-item">Réservation</a
+            ><a href="#specialities" class="menu-item">Sons & Vibration</a
+            ><a href="#cabinet" class="menu-item">Mon cabinet</a>
+            <a href="#review" class="menu-item">Les avis</a>
+            <a href="#intro" class="menu-item">Qui suis-je ?</a>
+          </nav>
+          <div class="mobile-menu-burger">
+            <input type="checkbox" id="navi-toggle" class="checkbox" />
+            <label for="navi-toggle" class="button">
+              <span class="icon">&nbsp;</span>
+            </label>
+            <div class="background">&nbsp;</div>
+            <nav class="menu-burger">
+              <ul class="list">
+                <li class="item">
+                  <a class="menu-item" href="#kinesiology" onclick="closeMenu()"
+                    >La kinésiologie</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="menu-item" href="#booking" onclick="closeMenu()"
+                    >Réservation</a
+                  >
+                </li>
+                <li class="item">
+                  <a
+                    class="menu-item"
+                    href="#specialities"
+                    onclick="closeMenu()"
+                    >Sons & Vibration</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="menu-item" href="#cabinet" onclick="closeMenu()"
+                    >Mon cabinet</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="menu-item" href="#review" onclick="closeMenu()"
+                    >Les avis</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="menu-item" href="#intro" onclick="closeMenu()"
+                    >Qui suis-je ?</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="heading-content">
+          <div class="heading-wrap slide-left">
+            <div class="heading-title">
+              <h1 class="heading-h1">
+                Apaisez votre esprit et libérez votre corps
+              </h1>
+              <h2 class="heading-h2">
+                Stress, dépression , burn-out, deuil, phobies, peurs, douleurs
+                physiques, trouble de l&apos;apprentissage… Que se
+                cache-t&rsquo;il derrière tout ça ?
+              </h2>
+            </div>
+            <button
+              href="#booking"
+              class="main-button"
+              onclick="returnSection()"
+            >
+              <img
+                src="assets/calendar-icon.svg"
+                alt="calendar-icon"
+                class="calendar-icon"
+              />
+              <p>Réserver ma séance</p>
+            </button>
+          </div>
+          <img
+            src="assets/heading-cover.png"
+            alt="Buddha statue"
+            class="heading-cover pop-up"
+          />
+        </div>
+      </div>
+      <img
+        src="assets/heading-transition.png"
+        alt="Wave transition"
+        class="heading-transition"
+      />
+    </section>
+    <main>
+      <div class="wrapped-sections">
+        <section class="intro small-wrap" id="kinesiology">
+          <img
+            src="assets/intro-illustration.png"
+            alt="Hands in a connecting position"
+            class="intro-illustration pop-up"
+          />
+          <div class="title-text-container slide-right">
+            <div class="title-container">
+              <div class="tag"><p>Une thérapie complète</p></div>
+              <h2 class="title">La puissance de la kinésiologie</h2>
+            </div>
+            <div class="text-container">
+              <p>
+                Les émotions vécues consciemment ou inconsciemment sont
+                engrammées dans notre corps depuis notre conception.
+                Physiquement et mentalement, elles s’expriment au travers de
+                maux.
+              </p>
+              <p>
+                C’est la qu’intervient la kinésiologie pour retrouver
+                l’équilibre, la liberté et l’harmonie.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="booking large-wrap" id="booking">
+          <div class="booking-container pop-up">
+            <div class="booking-title">
+              <h2>Réservation de votre séance</h2>
+              <p>
+                Les séances sont ouvertes
+                <span class="everyone">à tout le monde</span> (femmes enceintes,
+                personnes âgées, etc.). <br />
+                Vous pouvez prendre rendez-vous facilement sur cette plateforme.
+              </p>
+            </div>
+            <iframe
+              src="https://calendly.com/votre-nom-de-compte/your-event"
+              class="calendly-integration"
+            ></iframe>
+            <div class="booking-infos">
+              <p>
+                Je vous invite à préciser si le rendez-vous est pour un adulte
+                ou un enfants ainsi que le nom, le prénom et l’âge.
+                <br /><span class="cancellation"
+                  >(Si annulation, par respect, merci d’annuler la séance au
+                  minimum 48h avant sinon la séance sera facturée).</span
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="practical-infos small-wrap">
+          <img
+            src="assets/practical-infos-illustration.png"
+            alt="Location on Maps"
+            class="practical-infos-illustration slide-left"
+          />
+          <div class="title-text-container slide-right">
+            <div class="title-container">
+              <div class="tag"><p>Comment venir au cabinet ?</p></div>
+              <h2 class="title">Un lieu de détente proche de chez vous</h2>
+            </div>
+            <div class="text-container">
+              <p>
+                <span class="bold-text-container"
+                  >Les rendez-vous ont lieu à Guiche :</span
+                >
+                <br />- Venant de Bayonne prendre la A5 direction Pau -Sortie 5
+                <br />- Ou par les bords de l’eau via Lahonce et Urt.
+              </p>
+              <p>
+                <span class="bold-text-container"
+                  >Une séance adulte (1h30) :</span
+                >
+                50€.
+                <br /><span class="bold-text-container"
+                  >Une séance enfant jusqu’à 14 ans (entre 1h et 1h30):</span
+                >
+                40€.
+              </p>
+              <p>Règlement par chèque ou en espèce.</p>
+            </div>
+          </div>
+        </section>
+        <section class="specialities small-wrap" id="specialities">
+          <div class="title-text-container slide-left">
+            <div class="title-container">
+              <div class="tag"><p>Utilisation des sons & vibrations</p></div>
+              <h2 class="title">Mes méthodes & spécialités</h2>
+            </div>
+            <div class="text-container">
+              <p>
+                Le son a un impact sur notre corps. Ayant un lien très fort avec
+                la musique, je l’utilise dans mes séances de Kinésiologie avec
+                différents instruments :
+              </p>
+              <ul>
+                <span class="bold-text-container"
+                  ><li>Bol tibétein</li>
+                  <li>Carillon</li>
+                  <li>Voix</li>
+                  <li>Musique à 432 hertz</li>
+                  <li>Diapasons</li>
+                </span>
+              </ul>
+
+              <p>
+                Ces sons me permettent de rentrer dans des fréquences
+                vibratoires plus profondes afin d’obtenir de meilleurs résultats
+                dans mes séances.
+              </p>
+            </div>
+          </div>
+          <img
+            src="assets/specialities-illustration.png"
+            alt="Tibetan singing bowl"
+            class="specialities-illustration slide-right"
+          />
+        </section>
+      </div>
+    </main>
+    <div class="full-width-sections" id="cabinet">
+      <section class="office-discover small-wrap">
+        <div class="office-illustration">
+          <img
+            src="assets/small-illustration.png"
+            alt="Overview of a kinesiology room"
+            class="small-illustration slide-left"
+          />
+          <img
+            src="assets/large-illustration.png"
+            alt="Relaxation bed with paintings"
+            class="large-illustration slide-down"
+          />
+          <img
+            src="assets/small-illustration (2).png"
+            alt="Artistic hanging lamps"
+            class="small-illustration slide-right"
+          />
+        </div>
+        <div class="title-text-container pop-up">
+          <div class="title-container">
+            <h2 class="title">Vous êtes ici comme chez vous</h2>
+          </div>
+          <div class="text-container">
+            <p>
+              Bienvenue dans mon cabinet de kinésiologie. Un endroit agréable et
+              chaleureux dédié à votre détente et à la libération de tous vos
+              maux.
+            </p>
+            <p>
+              Dans ce cadre apaisant, je vous accompagne pour retrouver votre
+              confiance en vous, relâcher les pressions quotidiennes et
+              retrouver votre équilibre intérieur.
+            </p>
+          </div>
+        </div>
+        <button
+          href="#booking"
+          class="main-button button-pop-up"
+          onclick="returnSection()"
+        >
+          <img
+            src="assets/calendar-icon.svg"
+            alt="calendar-icon"
+            class="calendar-icon"
+          />
+          <p>Réserver ma séance</p>
+        </button>
+      </section>
+      <section class="session-discover small-wrap">
+        <div class="content-align">
+          <div class="title-text-container slide-left">
+            <div class="title-container">
+              <h2 class="title">Déroulement d’une séance & ses bienfaits</h2>
+            </div>
+            <div class="text-container">
+              <p>
+                La kinésiologie vous accompagne vers un bien-être total du corps
+                en utilisant des techniques reconnues. J’utilise un test
+                musculaire qui me permet de dialoguer avec votre inconscient à
+                l’aide de votre corps.
+              </p>
+              <p>
+                Mes séances de kinésiologie personnalisées sont conçues pour
+                répondre à vos besoins uniques. Je vous aide à éliminer votre
+                stress accumulé et à trouver votre harmonie mentale et physique.
+                Je crois en l’importance de l’équilibre émotionnel, physique et
+                corporel.
+              </p>
+              <p>
+                Je vous guiderai avec bienveillance vers une meilleure
+                compréhension de vous-même.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/content-align-illustration.png"
+          alt="Kinesiology session in progress"
+          class="content-align-illustration slide-up"
+        />
+      </section>
+    </div>
+    <main>
+      <div class="wrapped-sections">
+        <section class="review large-wrap">
+          <div class="title-text-container" id="review">
+            <div class="title-container">
+              <div class="tag"><p>Une thérapie complète</p></div>
+              <h2 class="title">Retours d’expériences & avis de patients</h2>
+            </div>
+          </div>
+          <div class="reviews-container">
+            <div class="review-container pop-up1">
+              <div class="review-content">
+                <div class="review-header">
+                  <h3 class="patient-name">Lilia</h3>
+                  <div class="stars-container">
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up1"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up2"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up3"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up4"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up5"
+                    />
+                  </div>
+                </div>
+                <p class="review-text">
+                  Je fais des séances occasionnellement avec Jessica pour gérer
+                  mes émotions, dès que je sens que ça ne va pas trop, nous
+                  faisons une séance. C’est primordial pour moi de me sentir
+                  bien dans mon corps et ma tête et à chaque fois que je sors de
+                  séance, je me sens légère, apaisée, et bien. Je recommande à
+                  100% les séances pour du long, moyen, ou court terme car ça
+                  m’a vraiment changé ma vie.
+                </p>
+              </div>
+              <div class="review-mobile-content">
+                <div class="review-text-box">
+                  <button class="main-button show-more-btn">
+                    <p>Lire l'avis</p>
+                  </button>
+                </div>
+
+                <div class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div class="mobile-stars-container">
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                    </div>
+                    <h3 class="review-mobile-text">
+                      Je fais des séances occasionnellement avec Jessica pour
+                      gérer mes émotions, dès que je sens que ça ne va pas trop,
+                      nous faisons une séance.
+                      <br /><br />C’est primordial pour moi de me sentir bien
+                      dans mon corps et ma tête et à chaque fois que je sors de
+                      séance, je me sens légère, apaisée, et bien. <br />
+                      <br />
+                      Je recommande à 100% les séances pour du long, moyen, ou
+                      court terme car ça m’a vraiment changé ma vie.
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review-container pop-up2">
+              <div class="review-content">
+                <div class="review-header">
+                  <h3 class="patient-name">Alexandre</h3>
+                  <div class="stars-container">
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up1"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up2"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up3"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up4"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up5"
+                    />
+                  </div>
+                </div>
+                <p class="review-text">
+                  Comme toute expérience, une séance de kinesiologie est quelque
+                  chose à vivre, peu de mots peuvent expliquer ce qui se passe
+                  en nous... J'ai suivi 2 séances. <br /><br />
+                  Intérieurement, j'ai le sentiment d'avoir avancé, je me suis
+                  reconnectée avec mon corps... Chaque séance est unique car on
+                  avance de plus en plus ! <br /><br />
+                  En 1 mot... Osez ! Merci encore Jessica du travail fabuleux
+                  que tu as fait pour m accompagner sur le chemin de
+                  l'épanouissement !
+                </p>
+              </div>
+              <div class="review-mobile-content">
+                <div class="review-text-box">
+                  <button class="main-button show-more-btn">
+                    <p>Lire l'avis</p>
+                  </button>
+                </div>
+
+                <div class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div class="mobile-stars-container">
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                    </div>
+                    <h3 class="review-mobile-text">
+                      Comme toute expérience, une séance de kinesiologie est
+                      quelque chose à vivre, peu de mots peuvent expliquer ce
+                      qui se passe en nous... J'ai suivi 2 séances. <br /><br />
+                      Intérieurement, j'ai le sentiment d'avoir avancé, je me
+                      suis reconnectée avec mon corps... Chaque séance est
+                      unique car on avance de plus en plus ! <br /><br />
+                      En 1 mot... Osez ! Merci encore Jessica du travail
+                      fabuleux que tu as fait pour m accompagner sur le chemin
+                      de l'épanouissement !
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review-container pop-up3">
+              <div class="review-content">
+                <div class="review-header">
+                  <h3 class="patient-name">Sophie</h3>
+                  <div class="stars-container">
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up1"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up2"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up3"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up4"
+                    />
+                    <img
+                      src="assets/star.svg"
+                      alt="star"
+                      class="star pop-up5"
+                    />
+                  </div>
+                </div>
+                <p class="review-text">
+                  Les séances de kinésiologie avec Jessica ont été une véritable
+                  révélation pour moi. Optant pour des rencontres ponctuelles
+                  afin de gérer mes émotions, chaque session devient un voyage
+                  intérieur unique. Sortir de ces séances, c'est ressentir une
+                  légèreté, une sérénité qui transforment ma perspective.
+
+                  <br /><br />La kinésiologie a apporté un changement
+                  significatif dans ma vie, et je recommande vivement cette
+                  expérience à tous ceux en quête de bien-être et d'harmonie
+                  intérieure. Jessica a su guider ce parcours avec une approche
+                  authentique et transformative. Chaque séance est une étape
+                  vers une meilleure version de soi. Osez explorer, osez la
+                  kinésiologie !
+                </p>
+              </div>
+              <div class="review-mobile-content">
+                <div class="review-text-box">
+                  <button class="main-button show-more-btn">
+                    <p>Lire l'avis</p>
+                  </button>
+                </div>
+
+                <div class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div class="mobile-stars-container">
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                      <img src="assets/star.svg" alt="star" class="star" />
+                    </div>
+                    <h3 class="review-mobile-text">
+                      Les séances de kinésiologie avec Jessica ont été une
+                      véritable révélation pour moi. Optant pour des rencontres
+                      ponctuelles afin de gérer mes émotions, chaque session
+                      devient un voyage intérieur unique. Sortir de ces séances,
+                      c'est ressentir une légèreté, une sérénité qui
+                      transforment ma perspective.
+
+                      <br /><br />La kinésiologie a apporté un changement
+                      significatif dans ma vie, et je recommande vivement cette
+                      expérience à tous ceux en quête de bien-être et d'harmonie
+                      intérieure. Jessica a su guider ce parcours avec une
+                      approche authentique et transformative. Chaque séance est
+                      une étape vers une meilleure version de soi. Osez
+                      explorer, osez la kinésiologie !
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            href="#booking"
+            class="main-button button-pop-up"
+            onclick="returnSection()"
+          >
+            <img
+              src="assets/calendar-icon.svg"
+              alt="calendar-icon"
+              class="calendar-icon"
+            />
+            <p>Réserver ma séance</p>
+          </button>
+        </section>
+        <section class="intro small-wrap" id="intro">
+          <img
+            src="assets/intro-illustration (2).png"
+            alt="Kinesiology practitioner"
+            class="intro-illustration slide-left"
+          />
+          <div class="title-text-container slide-right">
+            <div class="title-container">
+              <div class="tag"><p>Une thérapie complète</p></div>
+              <h2 class="title">La puissance de la kinésiologie</h2>
+            </div>
+            <div class="text-container">
+              <p>
+                Je suis Jessica Aroztegui, 42 ans et maman de 3 enfants.
+                Passionnée de musique, j’ai été chanteuse professionnelle avec
+                mon mari.
+              </p>
+              <p>
+                Ma rencontre avec la kinésiologie il y a 20 ans a changé ma vie.
+                Suite à une terrible épreuve, j’ai décidé d’en faire mon métier.
+                Mon vœu est d’aider un grand nombre de personnes à découvrir une
+                plénitude de leur existence, en éveillant leur conscience au
+                bien-être qui les habite.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="quote">
+        <img
+          src="assets/quote-transition.png"
+          alt="Wave transition"
+          class="quote-transition"
+        />
+        <div class="quote-container slide-up">
+          <h2 class="quote-text">
+            Le bonheur n'est pas quelque chose de prêt à l'emploi. Il vient de
+            nos propres actions.
+          </h2>
+          <p class="author">Dalaï Lama Tenzin Gyatso</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="credits-container">
+          <p class="credit-item">© COPYRIGHT 2023</p>
+          <p class="separator">|</p>
+          <p class="credit-item">jessica-aroztegui.com</p>
+          <p class="mobile-separator">|</p>
+        </div>
+        <p>Made with love by ESD Students 🤍</p>
+      </div>
+    </footer>
+  </body>
+</html>
