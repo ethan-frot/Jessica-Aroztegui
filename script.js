@@ -1,8 +1,4 @@
 // Scroll reveal
-
-// Bien pensé à actualisé la page pour désactiver
-// les animations en dessous d'un desktop !
-// (Sinon problème de marge à droite à cause de la bibliothèque)
 ScrollReveal({ mobile: false });
 
 // Up ease-in
@@ -12,8 +8,6 @@ var slideUp = {
   distance: "10%",
   origin: "bottom",
   erasing: "ease-in",
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".slide-up", slideUp);
@@ -25,8 +19,6 @@ var slideDown = {
   distance: "35%",
   origin: "top",
   erasing: "ease-in",
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".slide-down", slideDown);
@@ -38,8 +30,6 @@ var slideLeft = {
   distance: "15%",
   origin: "left",
   erasing: "ease-in",
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".slide-left", slideLeft);
@@ -51,8 +41,6 @@ var slideRight = {
   distance: "15%",
   origin: "right",
   erasing: "ease-in",
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".slide-right", slideRight);
@@ -62,8 +50,6 @@ ScrollReveal().reveal(".slide-right", slideRight);
 var popUp = {
   duration: 2000,
   scale: 0.3,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".pop-up", popUp);
@@ -73,8 +59,6 @@ ScrollReveal().reveal(".pop-up", popUp);
 var buttonPopUp = {
   duration: 2000,
   scale: 0.2,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".button-pop-up", buttonPopUp);
@@ -84,8 +68,6 @@ ScrollReveal().reveal(".button-pop-up", buttonPopUp);
 var popUp1 = {
   duration: 1000,
   scale: 0.3,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".pop-up1", popUp1);
@@ -95,8 +77,6 @@ ScrollReveal().reveal(".pop-up1", popUp1);
 var popUp2 = {
   duration: 2000,
   scale: 0.3,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".pop-up2", popUp2);
@@ -106,8 +86,6 @@ ScrollReveal().reveal(".pop-up2", popUp2);
 var popUp3 = {
   duration: 3000,
   scale: 0.3,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".pop-up3", popUp3);
@@ -117,8 +95,6 @@ ScrollReveal().reveal(".pop-up3", popUp3);
 var popUp4 = {
   duration: 4000,
   scale: 0.4,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".pop-up4", popUp4);
@@ -128,8 +104,6 @@ ScrollReveal().reveal(".pop-up4", popUp4);
 var popUp5 = {
   duration: 5000,
   scale: 0.5,
-  reset: true,
-  useDelay: "once",
 };
 
 ScrollReveal().reveal(".pop-up5", popUp5);
